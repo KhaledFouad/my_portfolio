@@ -3,7 +3,7 @@ import 'package:khaled_fouad/data/model/showcase_project.dart';
 import 'package:khaled_fouad/presentation/utils/extensions/extensions.dart';
 import 'package:khaled_fouad/presentation/views/about/about_view.dart';
 import 'package:khaled_fouad/presentation/views/certificates/certificates_view.dart';
-import 'package:khaled_fouad/presentation/views/contact_me/contact_me_view.dart';
+// import 'package:khaled_fouad/presentation/views/contact_me/contact_me_view.dart';
 import 'package:khaled_fouad/presentation/views/experience/experience_view.dart';
 import 'package:khaled_fouad/presentation/views/home/home_page.dart';
 import 'package:khaled_fouad/presentation/views/project_details/project_details_view.dart';
@@ -34,8 +34,8 @@ class RouteGen {
         return _buildRoute(const CertificatesView(), settings: settings);
       case Routes.about:
         return _buildRoute(const AboutView(), settings: settings);
-      case Routes.contact:
-        return _buildRoute(const ContactMeView(), settings: settings);
+      // case Routes.contact:
+      //   return _buildRoute(const ContactMeView(), settings: settings);
       default:
         return _buildRoute(const ErrorView(), settings: settings);
     }

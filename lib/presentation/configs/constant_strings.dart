@@ -39,7 +39,7 @@ const String ksCraftedWithLove = "Crafted with Love";
 const String ksRecentProjects = "Here are a selection of my recent projects";
 const String ksCraftedProjects =
     'Here are some of my carefully crafted projects';
-const String ksContact = "Contact Me";
+// const String ksContact = "Contact Me";
 const String ksAboutMe = "About Me";
 const String ksBgStory = "Background Story";
 const String ksTools = "Tools & Technology";
@@ -111,7 +111,7 @@ final List<RouteModel> ksMenu = [
   RouteModel(label: ksExperience, route: Routes.experience),
   RouteModel(label: ksCertificates, route: Routes.certificates),
   RouteModel(label: ksAbout, route: Routes.about),
-  RouteModel(label: ksContact, route: Routes.contact),
+  // RouteModel(label: ksContact, route: Routes.contact),
 ];
 
 // const String ksAwardsAndActivities = "Awards & Activities";
