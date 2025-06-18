@@ -1,6 +1,6 @@
 class Experience {
   final DateTime startDate;
-  final DateTime endDate;
+  final DateTime? endDate;
   final String company;
   final String position;
   final JobType type;

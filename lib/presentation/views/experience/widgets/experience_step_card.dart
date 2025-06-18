@@ -52,7 +52,7 @@ class ExperienceStepCard extends StatelessWidget {
             ),
             horizontalSpaceMedium,
             Text(
-              "${experience.startDate.toMonthAndYear()} - ${experience.endDate.toMonthAndYear()}",
+              "${experience.startDate.toMonthAndYearOrPresent()} - ${experience.endDate.toMonthAndYearOrPresent()}",
               textAlign: TextAlign.center,
               maxLines: 2,
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
@@ -167,7 +167,7 @@ class MobileExperienceStepCard extends StatelessWidget {
             ),
             horizontalSpaceMassive,
             Text(
-              "${experience.startDate.toMonthAndYear()} - ${experience.endDate.toMonthAndYear()}",
+              "${experience.startDate.toMonthAndYearOrPresent()} - ${experience.endDate!.toMonthAndYearOrPresent()}",
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
                     fontWeight: FontWeight.w200,
                   ),

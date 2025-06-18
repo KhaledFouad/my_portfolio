@@ -1,4 +1,5 @@
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:intl/intl.dart';
 import 'package:khaled_fouad/data/model/certificate.dart';
 import 'package:khaled_fouad/data/model/experience.dart';
 import 'package:khaled_fouad/data/model/project_info.dart';
@@ -64,7 +65,7 @@ const String ksDavidCobbina = "Ye Lwin Oo";
 const String ksBuildUsing = "Build using ";
 const String ksWithMuch = " with much ";
 const String ksCC = "©️ 2025 Khaled Fouad";
-const String ksYoung = "When I was young, I was a kid!";
+const String ksYoung = "There is no power nor strength except with God";
 const String ksNobody = "I'm NOBODY";
 const String ksSpecialization =
     "I specialize in Mobile Technologies and highly passionate about developing quality applications, open-source works and AI.";
@@ -150,7 +151,34 @@ final List<RouteModel> ksMenu = [
 
 final List<Experience> ksExperiences = [
   Experience(
-    company: "Flutter Training(EraaSoft)",
+    company: 'Freelance',
+    position: 'Flutter Developer',
+    type: JobType.remote,
+    startDate: DateTime(2025, 4),
+    endDate: null,
+    responsibilities: [
+      'Identifying and fixing bugs in existing Flutter applications.',
+      'Refactoring legacy code to improve maintainability and performance.',
+      'Communicating with clients to resolve UI/UX issues efficiently.',
+      'Maintaining clean architecture practices during enhancements.',
+    ],
+  ),
+  Experience(
+    company: "Data Collector(Hudle Statsbomb)",
+    position: "Data Collector ",
+    type: JobType.partTime,
+    responsibilities: [
+      "Collecting and annotating real-time sports data during live football matches.",
+      "Maintaining high accuracy and consistency under time-sensitive match environments.",
+      "Collaborating with a global operations team to ensure data quality and delivery.",
+      "Utilizing advanced data collection tools and software to capture match events.",
+    ],
+    startDate: DateTime(2025, 4),
+    endDate: null,
+  ),
+
+  Experience(
+    company: "Flutter Internship(EraaSoft)",
     position: "Flutter Developer",
     responsibilities: [
       "Developed four mobile applications (Tasks App, Vcare App, Ketaby App, and Jobsque App) during a one-month intensive Flutter training program at Eraasoft Company.",
