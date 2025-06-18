@@ -165,7 +165,7 @@ final List<Experience> ksExperiences = [
   ),
   Experience(
     company: "Data Collector(Hudle Statsbomb)",
-    position: "Data Collector ",
+    position: "Part Time",
     type: JobType.partTime,
     responsibilities: [
       "Collecting and annotating real-time sports data during live football matches.",
